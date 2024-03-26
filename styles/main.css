@@ -85,14 +85,18 @@ article {
 }
 article h2 {
 	padding-top: 0;
+	padding-bottom: 0;
 }
 article h3 {
 	padding-bottom: .25em;
 	font-size: 105%;
 }
 article img {
+	display: block;
+	vertical-align: bottom;
+	margin: 0;
+	padding: 0;
 	float: right;
-	margin: 0.5em 0 1em 1em;
 	border: 1px solid black;
 }
 aside {
